@@ -33,3 +33,15 @@ Automate pipeline deployments (FastAPI, Airbyte, dbt) in GitHub Actions.
 
 7️⃣ Query DuckDB with DBeaver
 Connect DBeaver to DuckDB and run queries to analyze Pokémon battle stats.
+
+
+📌 Tech Stack (Fully Open-Source)
+✅ Linux → Base environment (Ubuntu, Debian, or Fedora)
+✅ FastAPI → Serve API endpoints (fastapi + uvicorn)
+✅ Airbyte → ELT tool for extracting data from APIs & loading it
+✅ MinIO → Open-source S3-compatible object storage
+✅ Dagster → Modern data orchestrator (alternative to Airflow)
+✅ DuckDB → Fast OLAP database for analytics
+✅ dbt → SQL transformations and modeling (supports DuckDB)
+✅ DBeaver → Open-source SQL client for querying data
+✅ GitHub Actions → CI/CD automation
